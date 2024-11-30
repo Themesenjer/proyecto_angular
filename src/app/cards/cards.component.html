@@ -1,1 +1,16 @@
-<p>cards works!</p>
+<p-card [header]="title" styleClass="ui-card-shadow" class="center-card">
+    <!-- Subtítulo dentro de p-card como contenido adicional -->
+    <h5 class="subtitle">{{ subtitle }}</h5> 
+    
+    <!-- Imagen con vista previa -->
+    <p-image [src]="imageUrl" alt="Fiestas de Quito" preview></p-image> 
+    
+    <p>{{ content }}</p> <!-- Descripción del contenido de la tarjeta -->
+  
+    <ng-template pTemplate="footer">
+      <!-- Botones para interactuar con la tarjeta -->
+      <button pButton type="button" label="Ver detalles" icon="pi pi-info-circle" (click)="onButtonClick('details')"></button>
+      <button pButton type="button" label="Ver cronograma" icon="pi pi-calendar" (click)="onButtonClick('schedule')"></button>
+    </ng-template>
+  </p-card>
+  

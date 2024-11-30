@@ -2,7 +2,7 @@ import { bootstrapApplication } from '@angular/platform-browser';
 import { AppComponent } from './app/app.component';
 import { provideRouter, Routes } from '@angular/router';
 import { HomeworksComponent } from './app/homeworks/homeworks.component';
-import { MatricesComponent } from './matrices/matrices.component';
+import { MatricesComponent } from './app/matrices/matrices.component';
 import { CardsComponent } from './app/cards/cards.component';
 import { GalleryComponent } from './app/gallery/gallery.component';
 

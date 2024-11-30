@@ -1,0 +1,41 @@
+/* Asegura que el card esté centrado en la pantalla */
+.center-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    max-width: 400px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para el subtítulo */
+.subtitle {
+    color: #555;
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+/* Estilo para el botón */
+button {
+    margin-right: 10px;
+}
+
+/* Estilo de la imagen */
+p-image {
+    margin-top: 20px;
+    border-radius: 8px;
+    max-width: 10%;        /* Asegura que la imagen ocupe el ancho disponible */
+    max-height: 10px;      /* Limita la altura máxima de la imagen */
+    height: auto;           /* Mantiene la proporción de la imagen */
+    object-fit: cover;      /* Ajusta la imagen para que no se distorsione */
+}
+
+/* Añadir un margen inferior para el contenido */
+p {
+    margin-top: 10px;
+}
